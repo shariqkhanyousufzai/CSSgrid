@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+.grid-container div:nth-child(even){
+    background:linear-gradient(10deg,#13a799, #101415);
+}
+.grid-container div:nth-child(odd){
+    background:linear-gradient(10deg, #a71313, #101415);
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+}
+.col1 img{
+    height: 200px;
+    padding: 0% 0% 0% 15%;
+    
+}
+.col2 img{
+    height: 200px;
+    padding: 0% 0% 0% 30%;
+    
+}
+.col3 img{
+    height: 200px;
+    padding: 0% 0% 0% 30%;
+    
+}
+.col4 img{
+    height: 190px;
+    padding: 1% 0% 0% 20%;
+    
+}
+.grid-container2 div:nth-child(even){
+    background:   linear-gradient(10deg,#f7c2c2, #2c3277);
+}
+.grid-container2 div:nth-child(odd){
+    background:linear-gradient(10deg, #980e5a, #101415);
+}
+.grid-container2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.col1-c2 img{
+    height: 290px;
+    padding: 2% 0% 2% 30%
+}
+.col2-c2 img{
+    height: 290px;
+    padding: 2% 0% 2% 30%
+}
+.grid-container3 div:nth-child(even){
+    background:linear-gradient(10deg, #a71313, #101415);
+}
+.grid-container3 div:nth-child(odd){
+    background:linear-gradient(10deg,#13a799, #101415);
+}
+.grid-container3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.col1-c3 img{
+    height: 130px;
+    padding: 7% 0% 0% 14%;
+}
+.col2-c3 img{
+    height: 145px;
+    padding: 2% 0% 0% 0.7%;
+    background: black;
+    background-color: black;
+}
+.col3-c3 img{
+    height: 149px;
+    width: 224px;
+}
+.col4-c3 img{
+    height: 130px;
+    padding: 7% 0% 0% 19%;
+}
+.col5-c3 img{
+    height: 100px;
+    padding: 14% 0% 0% 14%;
+}
+.col6-c3 img{
+    height: 130px;
+    padding: 7% 0% 0% 19%;
+}
